@@ -1,0 +1,13 @@
+# ninja log v7
+91	217	8019809553045035	CMakeFiles/CProgram.dir/source/test/test.c.obj	9b843dba67904e1e
+11	220	8019809552259124	CMakeFiles/CProgram.dir/main.c.obj	83eead38eb40fb06
+76	221	8019809552899887	CMakeFiles/CProgram.dir/source/pageBest/pageBest.c.obj	4353df4df932e38c
+37	222	8019809552514655	CMakeFiles/CProgram.dir/source/tool/tool.c.obj	9fd88d3db41f16cf
+103	225	8019809553175123	CMakeFiles/CProgram.dir/source/pageBest/pageBestNew.c.obj	a60a9122004aca0e
+50	247	8019809552644738	CMakeFiles/CProgram.dir/source/tool/maxHeap/MaxHeap.c.obj	68b1fca9a1c00de6
+64	248	8019809552779799	CMakeFiles/CProgram.dir/source/tool/hashTable/hashTable.c.obj	b12ae37b36294c13
+25	249	8019809552394353	CMakeFiles/CProgram.dir/source/round/round.c.obj	8d9bb731d7698566
+117	272	8019809553310257	CMakeFiles/CProgram.dir/source/groupConnect/groupConnect.c.obj	f255a96b16cac6a
+272	603	8019809554862015	E:/Users/ASUS/source/repos/CProgram/target/CProgram.exe	47251e13b210413f
+12	119	8019811310372366	CMakeFiles/CProgram.dir/main.c.obj	83eead38eb40fb06
+121	360	8019811311455409	E:/Users/ASUS/source/repos/CProgram/target/CProgram.exe	47251e13b210413f

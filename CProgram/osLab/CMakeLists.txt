@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project("osLab" LANGUAGES CXX)
+set(Source_File "${PROJECT_SOURCE_DIR}/source/disk/disk.cpp")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/target")
+include_directories("${PROJECT_SOURCE_DIR}/head")
+add_executable(${CMAKE_PROJECT_NAME} ${Source_File} "main.cpp")
