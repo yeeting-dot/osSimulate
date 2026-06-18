@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Dy200/osSimulate/CProgram/osLab/out/build/x64-Debug/CMakeFiles/osLab.dir/embed.manifest"

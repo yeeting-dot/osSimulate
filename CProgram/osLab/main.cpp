@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "disk/disk.h"
+#include "instead/FIFOInstead.h"
 #include <vector>
 using std::vector;
 using std::cin;
@@ -43,7 +44,14 @@ int FileOperator() {
 	return 1;
 }
 
+int startFiFo() {
+	osLab::instead::FifoInstead<int> fifo(12, 5);
+	fifo.handle(std::cin,true);
+	fifo.printReview();
+	return 1;
+}
 int main() {
-	return FileOperator();
+	//return FileOperator();
+	return startFiFo();
 }
 
