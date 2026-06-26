@@ -32,7 +32,7 @@ namespace osLab {
 			public:
 				void handle(std::istream& in,bool serverFirst=false);
 				FifoInstead(int totalPage, int windowSize) :GLB_table(totalPage),dymInfo(windowSize) {
-					if (windowSize == 0) {
+					if (windowSize <= 0 || windowSize > 1000) {
 						throw std::exception("windows size to short");
 					}
 					dymInfo.head = dymInfo.tail = 0;

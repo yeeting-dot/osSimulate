@@ -65,6 +65,14 @@ build CMakeFiles\osLab.dir\main.cpp.obj: CXX_COMPILER__osLab_unscanned_Debug C$:
   TARGET_COMPILE_PDB = CMakeFiles\osLab.dir\
   TARGET_PDB = C:\Users\Dy200\osSimulate\CProgram\osLab\target\osLab.pdb
 
+build CMakeFiles\osLab.dir\source\memory\memory.cpp.obj: CXX_COMPILER__osLab_unscanned_Debug C$:\Users\Dy200\osSimulate\CProgram\osLab\source\memory\memory.cpp || cmake_object_order_depends_target_osLab
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  INCLUDES = -IC:\Users\Dy200\osSimulate\CProgram\osLab\head
+  OBJECT_DIR = CMakeFiles\osLab.dir
+  OBJECT_FILE_DIR = CMakeFiles\osLab.dir\source\memory
+  TARGET_COMPILE_PDB = CMakeFiles\osLab.dir\
+  TARGET_PDB = C:\Users\Dy200\osSimulate\CProgram\osLab\target\osLab.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target osLab
@@ -73,7 +81,7 @@ build CMakeFiles\osLab.dir\main.cpp.obj: CXX_COMPILER__osLab_unscanned_Debug C$:
 #############################################
 # Link the executable C:\Users\Dy200\osSimulate\CProgram\osLab\target\osLab.exe
 
-build C$:\Users\Dy200\osSimulate\CProgram\osLab\target\osLab.exe: CXX_EXECUTABLE_LINKER__osLab_Debug CMakeFiles\osLab.dir\source\disk\disk.cpp.obj CMakeFiles\osLab.dir\main.cpp.obj
+build C$:\Users\Dy200\osSimulate\CProgram\osLab\target\osLab.exe: CXX_EXECUTABLE_LINKER__osLab_Debug CMakeFiles\osLab.dir\source\disk\disk.cpp.obj CMakeFiles\osLab.dir\main.cpp.obj CMakeFiles\osLab.dir\source\memory\memory.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

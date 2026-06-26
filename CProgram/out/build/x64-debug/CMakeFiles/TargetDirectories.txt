@@ -1,3 +1,3 @@
-E:/Users/ASUS/source/repos/CProgram/out/build/x64-debug/CMakeFiles/CProgram.dir
-E:/Users/ASUS/source/repos/CProgram/out/build/x64-debug/CMakeFiles/edit_cache.dir
-E:/Users/ASUS/source/repos/CProgram/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Dy200/osSimulate/CProgram/out/build/x64-debug/CMakeFiles/CProgram.dir
+C:/Users/Dy200/osSimulate/CProgram/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dy200/osSimulate/CProgram/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
